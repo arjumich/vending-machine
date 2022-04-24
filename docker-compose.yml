@@ -1,17 +1,17 @@
 version: "3"
 services:
   order-beverage-service:
-    image: arjumich/vending-machine:v2
+    image: arjumich/vending-machine:v4
     hostname: order-beverage-service
     restart: always
     entrypoint: OrderBeverageService
   weather-service:
-    image: arjumich/vending-machine:v2
+    image: arjumich/vending-machine:v4
     hostname: weather-service
     restart: always
     entrypoint: WeatherService
   beverage-preference-service:
-    image: arjumich/vending-machine:v2
+    image: arjumich/vending-machine:v4
     hostname: beverage-preference-service
     restart: always
     entrypoint: BeveragePreferenceService
